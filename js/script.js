@@ -10,6 +10,7 @@ function deleteTodo() {
 		span.addEventListener('click', function () {
 			span.parentElement.remove()
 			event.preventDefault()
+			tit.style.display = 'block'
 		})
 	}
 }
